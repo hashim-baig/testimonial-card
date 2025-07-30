@@ -9,7 +9,7 @@ type TestimonialCardProps = {
 }
 
 const TestimonialCard = ({imgUrl, name, username, testimonial} :TestimonialCardProps) => (
-    <figure className="bg-white drop-shadow-md w-[340px] h-[233px] rounded-md p-6 font-noto mt-[200px] mb-[335px]">
+    <figure className="bg-white drop-shadow-md w-[340px] h-[233px] rounded-md p-6 font-noto mt-[200px] mb-[391px] md:mb-[591px] lg:mb-[335px]">
         <figcaption className="flex flex-col justify-center gap-4">
             <AvatarProfile
                 imgUrl={imgUrl}
